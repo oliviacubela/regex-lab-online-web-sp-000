@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
-if word.match(/\b+[aeiouAEIOU]/) 
+if word.match(/\b+[aeiouAEIOU]/)
   puts "true"
-else 
+else
   puts "false"
   starts_with_a_vowel("apple")
 end
